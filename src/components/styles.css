@@ -155,7 +155,7 @@ aside.search-bar p {
 
 .important-links ul li a:hover{
   color: aqua;
-}
+}/*
 @media (max-width: 425px){
   header{
     overflow-y: hidden;
@@ -185,7 +185,7 @@ aside.search-bar p {
     top: 40px;
     right: 190px;
   }
-}
+}*/
 @media (max-width: 320px){
   header{
     overflow-y: hidden;
