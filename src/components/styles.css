@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(183, 215, 196);
+  background-color: rgb(212, 255, 229);
   padding: 5px 0;
   position: relative;
 }
@@ -37,6 +37,7 @@ header .logo img {
 .header-list ul li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .header-list ul li a:hover{
@@ -51,12 +52,12 @@ header .logo img {
 .menu-icon img {
   width: 30px;
 }
-@media(min-width: 1000px){
+@media(min-width: 1024px){
   header{
     overflow-x: hidden;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header-list {
       display: none;
   }
@@ -155,17 +156,51 @@ aside.search-bar p {
 .important-links ul li a:hover{
   color: aqua;
 }
-
-@media (max-width: 300px){
+@media (max-width: 425px){
   header{
-    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .search-bar{
+    position: relative;
     margin-top: 21px;
-    margin-right: -100px;
+    margin-right: -150px;
+  }
+  .search-bar form button{
+    position: relative;
+    top: 40px;
+    right: 190px;
   }
 }
-
+@media (max-width: 375px){
+  header{
+    overflow-y: hidden;
+  }
+  .search-bar{
+    position: relative;
+    margin-top: 21px;
+    margin-right: -150px;
+  }
+  .search-bar form button{
+    position: relative;
+    top: 40px;
+    right: 190px;
+  }
+}
+@media (max-width: 320px){
+  header{
+    overflow-y: hidden;
+  }
+  .search-bar{
+    width: 190px;
+    margin-top: 21px;
+    margin-right: -150px;
+  }
+  .search-bar form button{
+    position: relative;
+    top: 40px;
+    right: 190px;
+  }
+}
 .search-bar {
   position: absolute;
   top: 83px;
@@ -246,21 +281,14 @@ aside.search-bar p {
   background-color: #4cbcf4;
   color: rgb(0, 0, 0);
 }
-.container1 {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-.container2 {
+.container1, .container2 {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 .box {
-  background-color: #bbfdc7;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
+  background-color: #9bfffa;
+  margin: 20px 20px;
   border-radius: 8px;
   width: 400px;
   height: 400px;
@@ -275,8 +303,8 @@ aside.search-bar p {
   color: #322358;
 }
 .notice-section p{
-  color: #555;
-  padding: 5px 10px;
+  color: #000000;
+  padding: 5px 15px;
   text-align: justify;
 }
 
@@ -286,11 +314,11 @@ aside.search-bar p {
 }
 
 .news-feed ul {
-  padding: 30px;
+  margin: 10px;
 }
 
 .news-feed ul li {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .news-feed ul li::marker{
 color: #ff0000;
@@ -310,16 +338,18 @@ color: #ff0000;
   text-decoration: underline;
 }
 .time-table p{
-  color: #555555;
-  padding: 5px 10px;
+  color: #000000;
+  padding: 5px 15px;
   text-align: justify;
 }
 .train-cancel h2{
   color: #000000;
   text-align: center;
 }
-.train-cancel p, ul{
-  color: #555555;
+.train-cancel p{
+  padding: 5px 15px;
+  text-align: justify;
+  color: #000000;
 }
 .pagination {
   display: flex;
@@ -330,6 +360,7 @@ color: #ff0000;
 .pagination a {
   margin: 0 5px;
   text-decoration: none;
+  font-weight: bold;
   color: #ffffff;
   padding: 8px 12px;
   border-radius: 4px;
@@ -349,6 +380,7 @@ color: #ff0000;
 footer {
   background-color: rgb(183, 215, 196);
   color: rgb(0, 0, 0);
+  font-weight: bold;
   text-align: center;
   margin: 0;
   padding: 5px 0;
@@ -362,7 +394,7 @@ footer {
   padding: 20px 0;
   max-width: 800px;
   text-align: left;
-  background-color:rgb(254, 234, 198);
+  background-color:rgb(253, 242, 221);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -403,7 +435,7 @@ footer {
   padding: 20px;
   max-width: 800px;
   text-align: left;
-  background-color:rgb(254, 234, 198);
+  background-color:rgb(253, 242, 221);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -458,7 +490,7 @@ footer {
   padding: 20px;
   max-width: 800px;
   text-align: left;
-  background-color:rgb(254, 234, 198);
+  background-color:rgb(253, 242, 221);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -514,7 +546,7 @@ footer {
   padding: 20px;
   max-width: 800px;
   text-align: left;
-  background-color:rgb(254, 234, 198);
+  background-color:rgb(253, 242, 221);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
