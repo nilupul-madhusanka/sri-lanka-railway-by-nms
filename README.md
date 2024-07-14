@@ -3,9 +3,9 @@ I created an alternative example website for Sri Lanka Government Railway Websit
 ## Installation
 Prerequisites
 
-Install Git: Ensure Git is installed on your computer. You can download it from Git's official website.[GIT](https://git-scm.com/)
+-Install Git: Ensure Git is installed on your computer. You can download it from Git's official website.[GIT](https://git-scm.com/)
 
-Install Node.js and npm: Ensure Node.js and npm (Node Package Manager) are installed. You can download them from Node.js official website.[Node.js](https://nodejs.org/)
+-Install Node.js and npm: Ensure Node.js and npm (Node Package Manager) are installed. You can download them from Node.js official website.[Node.js](https://nodejs.org/)
 
 ## Steps to Clone and Run the React Project
 
