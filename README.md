@@ -1,5 +1,5 @@
 # Sri Lanka Railway By NMS
-I created an alternative example website for Sri Lanka Government Railway Website.  [Welcome to Sri Lanka Railways](http://www.railway.gov.lk/web/)
+I created an alternative example website for Sri Lanka Government Railway Website.  ([Welcome to Sri Lanka Railways](http://www.railway.gov.lk/web/))
 ## Installation
 Prerequisites
 
@@ -30,3 +30,4 @@ This command will start the React development server, and you should see output 
 # Revealing the Deployed Project on Netlify
 ## I deployed this project to see everyone, without local Installation.
 :point_right: [Sri Lanka Railway By NMS](https://sri-lanka-railway-by-nms.netlify.app/) :heart:
+I specially created this site for mobile devices, so make sure to open it on your MOBILE. 💙🔥
