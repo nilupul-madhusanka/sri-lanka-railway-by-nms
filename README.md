@@ -3,9 +3,9 @@ I created an alternative example website for Sri Lanka Government Railway Websit
 ## Installation
 Prerequisites
 
--Install Git: Ensure Git is installed on your computer. You can download it from Git's official website.[GIT](https://git-scm.com/)
+- Ensure Git is installed on your computer. You can download it from Git's official website.[GIT](https://git-scm.com/)
 
--Install Node.js and npm: Ensure Node.js and npm (Node Package Manager) are installed. You can download them from Node.js official website.[Node.js](https://nodejs.org/)
+- Ensure Node.js and npm (Node Package Manager) are installed. You can download them from Node.js official website.[Node.js](https://nodejs.org/)
 
 ## Steps to Clone and Run the React Project
 
@@ -28,5 +28,5 @@ npm start
 This command will start the React development server, and you should see output indicating that the server is running. By default, it will be accessible at http://localhost:3000.
 
 # Revealing the Deployed Project on Netlify
-## I deployed this project to see everyone, without local Installation.Here is the LINK,
-  [Sri Lanka Railway By NMS](https://sri-lanka-railway-by-nms.netlify.app/) :heart:
+## I deployed this project to see everyone, without local Installation.
+:point_right: [Sri Lanka Railway By NMS](https://sri-lanka-railway-by-nms.netlify.app/) :heart:
