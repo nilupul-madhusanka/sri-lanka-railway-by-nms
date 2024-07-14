@@ -11,11 +11,11 @@ Install Node.js and npm: Ensure Node.js and npm (Node Package Manager) are insta
 
 - Clone the Repository
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/nilupul-madhusanka/sri-lanka-railway-by-nms.git
 ```
 - Navigate to the Project Directory
 ```bash
-cd repository-name
+cd sri-lanka-railway-by-nms
 ```
 - Install Dependencies
 ```bash
@@ -26,3 +26,7 @@ npm install
 npm start
 ```
 This command will start the React development server, and you should see output indicating that the server is running. By default, it will be accessible at http://localhost:3000.
+
+# Revealing the Deployed Project on Netlify
+## I deployed this project to see everyone, without local Installation.Here is the LINK,
+  [Sri Lanka Railway By NMS](https://sri-lanka-railway-by-nms.netlify.app/) :heart:
