@@ -75,7 +75,7 @@ header .logo img {
     background-color: rgb(4, 32, 45);
     text-align: center;
     overflow-x: hidden;
-    z-index: 1000;
+    z-index: 100;
   }
   .header-list ul {
     display: flex;
@@ -200,7 +200,26 @@ header .logo img {
   color: #ffffff;
 }
 
-
+@media (max-width: 425px){
+  .main-images{
+    position: relative;
+  }
+  .important-links{
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+  .search-bar{
+    position: absolute;
+    top: 55px;
+    right: -5px;
+  }
+  .search-bar form button{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+  }
+}
 
 .services-links {
   display: flex;
