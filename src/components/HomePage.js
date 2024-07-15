@@ -53,25 +53,25 @@ const HomePage = () => {
             <img src={main1} alt="" className="active" />
             <img src={main2} alt="" />
             <img src={main3} alt="" />
+            <aside className="important-links">
+              <p>Important Links</p>
+              <ul>
+                <li><a href="/">Ministry of Transport</a></li>
+                <li><a href="/">CTB Sri Lanka</a></li>
+                <li><a href="/">Sri Lanka Airlines</a></li>
+                <li><a href="/">Sri Lanka Police</a></li>
+                <li><a href="/">Train Stations Database</a></li>
+                <li><a href="/">GIC</a></li>
+              </ul>
+            </aside>
+            <aside className="search-bar">
+              <p>Find Anything Here</p>
+              <form>
+              <input type="text" placeholder="Search..."/>
+              <button type="submit">Search</button>
+              </form>
+            </aside>
           </div>
-          <aside className="important-links">
-            <p>Important Links</p>
-            <ul>
-              <li><a href="/">Ministry of Transport</a></li>
-              <li><a href="/">CTB Sri Lanka</a></li>
-              <li><a href="/">Sri Lanka Airlines</a></li>
-              <li><a href="/">Sri Lanka Police</a></li>
-              <li><a href="/">Train Stations Database</a></li>
-              <li><a href="/">GIC</a></li>
-            </ul>
-          </aside>
-          <aside className="search-bar">
-            <p>Find Anything Here</p>
-            <form>
-            <input type="text" placeholder="Search..."/>
-            <button type="submit">Search</button>
-            </form>
-          </aside>
           <div className="services-links">
             <a href="/">Train Schedule</a>
             <a href="/">Passenger Services</a>
