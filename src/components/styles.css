@@ -205,12 +205,12 @@ header .logo img {
   .important-links{
     position: absolute;
     top: 70px;
-    left: 0;
+    left: 5px;
   }
   .search-bar{
     position: absolute;
     top: 55px;
-    right: 0;
+    right: 5px;
   }
   .search-bar form input{
     position: absolute;
