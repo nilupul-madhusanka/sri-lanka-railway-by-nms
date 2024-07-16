@@ -118,17 +118,15 @@ const HomePage = () => {
               </ul>
             </div>
           </div>
-          <div className="pagination">
+          <aside className="pagination">
             <a href="/" class="active">Home</a>
             <a href="/">&laquo; Prev</a>
             <a href="/" class="active">1</a>
             <a href="/">2</a>
             <a href="/">3</a>
             <a href="/">4</a>
-            <a href="/">5</a>
-            <a href="/">6</a>
             <a href="/">Next &raquo;</a>
-          </div>
+          </aside>
         </section>
       </main>
       <footer>
