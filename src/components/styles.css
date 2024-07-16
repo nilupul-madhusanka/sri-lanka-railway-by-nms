@@ -215,7 +215,7 @@ header .logo img {
   .search-bar form input{
     position: absolute;
     top: 68px;
-    right: 5px;
+    right: 0;
   }
   .search-bar form button{
     position: absolute;
