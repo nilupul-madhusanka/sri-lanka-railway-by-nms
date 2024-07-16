@@ -127,7 +127,7 @@ header .logo img {
 .important-links {
   position: absolute;
   top: 30px;
-  left: 100px;
+  left: 10px;
 }
 .important-links p{
   position: absolute;
@@ -165,7 +165,7 @@ header .logo img {
 .search-bar {
   position: absolute;
   top: 15px;
-  right: 180px;
+  right: 90px;
 }
 .search-bar p{
   padding: 10px 20px;
@@ -198,7 +198,7 @@ header .logo img {
   color: #ffffff;
 }
 
-@media (max-width: 425px){
+@media (max-width: 640px){
   .main-images{
     position: relative;
   }
@@ -210,12 +210,17 @@ header .logo img {
   .search-bar{
     position: absolute;
     top: 55px;
-    right: -5px;
+    right: 0;
+  }
+  .search-bar form input{
+    position: absolute;
+    top: 68px;
+    left: 5px;
   }
   .search-bar form button{
     position: absolute;
     top: 110px;
-    left: 80px;
+    left: 90px;
   }
 }
 
