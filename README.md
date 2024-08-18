@@ -31,4 +31,5 @@ This command will start the React development server, and you should see output 
 ## I deployed this project to see everyone, without local Installation.
 :point_right: [Sri Lanka Railway By NMS](https://sri-lanka-railway-by-nms.netlify.app/) :heart:
 
+![Screenshot (636)](https://github.com/user-attachments/assets/c9b2806b-1856-4edf-90e4-99b69b270385)
 I specially created this site for mobile devices, so make sure to open it on your MOBILE. 💙🔥
